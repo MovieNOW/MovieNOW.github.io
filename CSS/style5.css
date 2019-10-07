@@ -1,0 +1,95 @@
+body {
+	background-color:black;
+	color: black;
+	margin: 0px;
+	overflow:auto;
+}
+p{  margin-top: 50px;
+	padding-left: 400px;
+	font-size:25px;
+	font-family:'Fjalla One', sans-serif;
+
+
+}
+h1 { font-family: 'Homemade Apple', cursive;
+	font-size: 40px;
+	margin-top:50px;
+	margin-left:400px;
+	color:#F2A413;
+
+
+}
+
+
+ul {
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+	/*width:200px; */
+	overflow:hidden;
+	background-color:#F2A413;
+	position:fixed;
+	font-family: 'Special Elite', cursive;
+}
+li {
+	float: left; 
+
+
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 8px 16px;
+	text-decoration: none;
+	font-family: 'Special Elite', cursive;
+}
+
+li a:hover {
+	background-color:#7C8C03;
+	color:white;
+}
+
+.active {
+	background-color:#7C8C03;}
+
+
+
+.img1 { width: 320px;
+	height:200px;
+ }
+ .img2 { width:400px;
+ 	height: 220px;
+ 	 }
+ .img3 {
+ 		width:370px;
+ 		height : 230px;
+ }
+ .img4 {
+ 		width:370px;
+ 		height:230px;
+ }
+ .img5 {
+ 	width: 410px;
+ 	height:260px;
+
+ }
+ .img6{ width:420px;
+ 	height:220px; }
+ .img7 { width: 350px;
+ 	height:200px;}
+
+ .img8 { width: 320px;
+ 	height:220px; }
+
+.img9 { width: 450px;
+height:200px; }
+.img10 { width: 380px;
+height:200px; }
+.img11 { width: 350px;
+	height:200px; }
+
+.img12{ width:400px;
+	height:200px;
+
+}
