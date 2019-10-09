@@ -110,7 +110,12 @@ li a:hover {
 }
 
 
+.criteria {
+  font-family: 'Volkhov', serif;
+  font-size: 20px;
+  color: grey;
 
+}
 .image5{
 	width:400px;
 	height:300px;
