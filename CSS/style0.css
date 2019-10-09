@@ -2,6 +2,7 @@ body {
 	background-color:black;
 	color: #A62B1F;
 	margin: 0px;
+	padding-bottom: 200px;
 }
 
 p { margin-top: 100px;
@@ -185,9 +186,7 @@ li a:hover {
 
 	transform: rotate(90deg);
 	transform-origin:right top;
-} 
-
-</div>
+} </div>
 
 .paragraph3 {
 	width:400px;
@@ -201,29 +200,31 @@ li a:hover {
 
 body {
   margin:0px;
-  font-family:'Roboto';
-  text-align:center;
+  font-family:'Special Elite', cursive;
+  text-align:left;
+
 }
 
 #container {
-  color:white;
+  color:#999;
   text-transform: uppercase;
   font-size:20px;
   font-weight:bold;
-  padding-top:200px;  
+  padding-top:100px;  
   position:fixed;
   width:100%;
-  bottom:25%;
+  bottom:30%;
   display:block;
+  color:white;
 }
 
 #flip {
-  height:100px;
+  height:35px;
   overflow:hidden;
 }
 
 #flip > div > div {
-  color:#fff;
+  color:black;
   padding:4px 12px;
   height:45px;
   margin-bottom:45px;
@@ -235,13 +236,13 @@ body {
 }
 
 #flip div div {
-  background:#203a43;
+  background:#F2B705;
 }
 #flip div:first-child div {
-  background:#3c3b3f;
+  background:#F2B705;
 }
 #flip div:last-child div {
-  background:#0f2027;
+  background:#F2B705;
 }
 
 @keyframes show {
@@ -258,13 +259,17 @@ body {
 p {
   position:fixed;
   width:100%;
-  bottom:30px;
+  bottom:25px;
   font-size:18px;
   color:#;
-  margin-top:200px;
+  margin-top:100px;
 }
 
+.moving {
+	margin-top: 150px;
+	margin-left:200px;
 
+}
 
 * {
   border: 0;
